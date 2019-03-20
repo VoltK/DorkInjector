@@ -1,0 +1,14 @@
+PostgreSQL
+pg_
+Query failed
+[Microsoft][ODBC Microsoft Access Driver]
+Microsoft JET Database Engine error
+ORA-
+You have an error in your SQL syntax
+mysql_query()
+XPATH syntax error",
+require()
+require_once()
+include()
+include_once()
+Unknown column
