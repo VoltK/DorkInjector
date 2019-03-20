@@ -6,7 +6,9 @@ After performed search all urls will be saved to file for further scan if needed
 
 By default it will start injecting all found urls, if url is injectable it will be saved to text file. 
 
+
 ###Usage:
+
 ```
 usage: DorkInjector.py [-h] [-d DORK] [-p [PROXIES]] [-e [{google,duck,bing}]]
                        [-s SITES] [-t [TIMEOUT]] [-m [MAX]] [-o [OUTPUT]]
@@ -37,7 +39,9 @@ If you picked Google you should have really good private proxies.
 
 ```
 
+
 ##Installation:
+
 ```
 git clone https://github.com/VoltK/DorkInjector.git
 cd DorkInjector
@@ -45,7 +49,9 @@ pip3 install -r requirements.txt
 python3 DorkInjector.py -d inurl:"product.php?id=" -m 5 -o injectable.txt -t 20
 ```
 
+
 ##Notes:
+
 1) By default search engine set to Bing.com
 2) DuckDuckGo sometimes gives irrelevant results for dork searching -> Check your dork first
 3) If you want to use Google- you better have private proxies, otherwise you will stuck in captcha
